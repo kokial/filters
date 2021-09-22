@@ -1,5 +1,5 @@
 {
-    "version": "20210922-1",
+    "version": "20210922",
     "adDomains": ["*://*.youtube.com/get_video_info*",
 "*://*.youtube.com/pagead*",
 "*://*.youtube.com/*log_event?alt=json&key*",
