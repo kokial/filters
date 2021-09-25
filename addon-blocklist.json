@@ -1,5 +1,5 @@
 {
-"version": "20210924-desktop",
+"version": "20210925-desktop",
 "adDomains": ["*://*.youtube.com/get_video_info*",
 "*://*.youtube.com/pagead*",
 "*://*.youtube.com/*log_event?alt=json&key*",
