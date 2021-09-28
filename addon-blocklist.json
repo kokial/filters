@@ -1,5 +1,5 @@
 {
-"version": "20210928_desktop",
+"version": "20210928-1_desktop",
 "adDomains": ["*://*.youtube.com/get_video_info*",
 "*://*.youtube.com/pagead*",
 "*://*.youtube.com/*log_event?alt=json&key*",
@@ -25,6 +25,8 @@
 "*://*.youtube.com/ptracking?*",
 "*://*.google.com/js/th/*",
 "*://*.youtube.com/generate_204?*",
+"*://*.youtube.com/pcs/activeview?*",
+"*://*.googleusercontent.com/proxy/*",
 "*://0001.best/*",
 "*://0003c9303cc769bcf5455fdecdb84c00.safeframe.googlesyndication.com/*",
 "*://000f378090e2706f51b54df7358b7608.safeframe.googlesyndication.com/*",
