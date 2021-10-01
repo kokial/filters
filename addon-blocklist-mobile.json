@@ -1,5 +1,5 @@
 {
-    "version": "20210929_mobile",
+    "version": "20211001_mobile",
     "adDomains": ["*://*.youtube.com/get_video_info*",
 "*://*.youtube.com/pagead*",
 "*://*.youtube.com/*log_event?alt=json&key*",
