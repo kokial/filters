@@ -4,7 +4,6 @@
 "*://*.youtube.com/pagead*",
 "*://*.youtube.com/*log_event?alt=json&key*",
 "*://*.youtube.com/*/ad_break?key*",
-"*://*.youtube.com/*atr?ns=yt*",
 "*://*.youtube.com/*ads?ver*",
 "*://i1.ytimg.com/*",
 "*://*/pagead/*",
