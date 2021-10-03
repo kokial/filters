@@ -1,5 +1,5 @@
 {
-"version": "20211002 Desktop",
+"version": "21-10-3 Desktop",
 "blockList": ["*://*.youtube.com/get_video_info*",
 "*://*.youtube.com/pagead*",
 "*://*.youtube.com/*log_event?alt=json&key*",
