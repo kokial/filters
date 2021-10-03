@@ -1,5 +1,5 @@
 {
-"version": $(date '+%Y-%m-%d')" desktop",
+"version": $date" Desktop",
 "blockList": ["*://*.youtube.com/get_video_info*",
 "*://*.youtube.com/pagead*",
 "*://*.youtube.com/*log_event?alt=json&key*",
