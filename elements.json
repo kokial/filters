@@ -9215,7 +9215,7 @@
         ".BigBoxAdLabel",
         ".BlockAd",
         ".BlueTxtAdvert",
-        ".banner_center ad-slot box-adv",
+        ".banner_center,.ad-slot box-adv",
         ".BottomAd-container",
         ".BottomAdContainer",
         ".BottomAdsPartial",
