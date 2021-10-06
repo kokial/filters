@@ -1,14 +1,8 @@
 {
-    "www.expressen.se": [
-        ".linked-image-widget"
-    ],
-    "www.elconfidencialdigital.com": [
-        ".ad-slot"
-    ],
-    "www.elconfidencial.com": [
-        ".revUnit"
-    ],
-    "www.larazon.es": [
+    "all": [
+        ".linked-image-widget",
+        ".ad-slot",
+        ".revUnit",
         "#top",
         ".henneoHB_right",
         ".henneoHB_cintillo",
@@ -17,12 +11,8 @@
         ".sunmedia1",
         ".sunmedia2",
         ".roba_finarticulo",
-        ".roba_finarticulo2"
-    ],
-    "elpais.com": [
-        ".ad"
-    ],
-    "www.elespanol.com": [
+        ".roba_finarticulo2",
+        ".ad",
         ".adv",
         "#megasuperior",
         "#robasuperiorhome2",
@@ -34,9 +24,7 @@
         "#roba05",
         "#cintillodeportes",
         "#cintillocorazon",
-        "#megainferior"
-    ],
-    "www.genbeta.com": [
+        "#megainferior",
         ".ad-box",
         "#pc-div-gpt-ad_728",
         "#movil-div-gpt-ad_728",
@@ -49,9 +37,7 @@
         "#pc-div-gpt-ad_300dchab",
         "#pc-div-gpt-ad_300izda",
         "#pc-div-gpt-ad_300izdab",
-        "#pc-div-gpt-ad_native"
-    ],
-    "www.youtube.com": [
+        "#pc-div-gpt-ad_native",
         "#YtKevlarVisibilityIdentifier",
         "#YtSparklesVisibilityIdentifier",
         "#feed-pyv-container",
@@ -101,9 +87,7 @@
         "ytd-video-masthead-ad-v3-renderer",
         "ytm-companion-slot",
         "ytm-promoted-sparkles-text-search-renderer",
-        "ytm-promoted-sparkles-web-renderer"
-    ],
-    "all": [
+        "ytm-promoted-sparkles-web-renderer",
         "#A9AdsMiddleBoxTop",
         "#A9AdsOutOfStockWidgetTop",
         "#A9AdsServicesWidgetTop",
@@ -22132,5 +22116,5 @@
         ".ms5971dBcaEE7f39eb4aE6D69f95CEb97f",
         ".wio-xspb wio-xspa",
         ".zox_ad_widget"
-    ]
+]
 }
