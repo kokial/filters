@@ -10,6 +10,7 @@
     ],
     "www.larazon.es": [
         "#top",
+        "section__news--is-ad ad-parent-class",
         ".henneoHB,.henneoHB_right",
         ".henneoHB_right",
         ".henneoHB_cintillo",
