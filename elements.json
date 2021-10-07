@@ -1,30 +1,7 @@
-{
-    "www.expressen.se": [
-        ".linked-image-widget"
-    ],
-    "www.elconfidencialdigital.com": [
-        ".ad-slot"
-    ],
-    "www.elconfidencial.com": [
-        ".revUnit"
-    ],
-    "www.larazon.es": [
-        "#top",
-        ".section__news--is-ad,.ad-parent-class",
-        ".henneoHB,.henneoHB_right",
-        ".henneoHB_right",
-        ".henneoHB_cintillo",
-        ".native1",
-        ".section-special--is-patrocinado",
-        ".sunmedia1",
-        ".sunmedia2",
-        ".roba_finarticulo",
-        ".roba_finarticulo2"
-    ],
-    "elpais.com": [
-        ".ad"
-    ],
-    "www.elespanol.com": [
+{"all": [
+        ".ad-slot",
+        ".revUnit",
+        ".ad",
         ".adv",
         "#megasuperior",
         "#robasuperiorhome2",
@@ -36,9 +13,7 @@
         "#roba05",
         "#cintillodeportes",
         "#cintillocorazon",
-        "#megainferior"
-    ],
-    "www.genbeta.com": [
+        "#megainferior",
         ".ad-box",
         "#pc-div-gpt-ad_728",
         "#movil-div-gpt-ad_728",
@@ -52,9 +27,7 @@
         "#pc-div-gpt-ad_300dchab",
         "#pc-div-gpt-ad_300izda",
         "#pc-div-gpt-ad_300izdab",
-        "#pc-div-gpt-ad_native"
-    ],
-    "www.youtube.com": [
+        "#pc-div-gpt-ad_native",
         "#YtKevlarVisibilityIdentifier",
         "#YtSparklesVisibilityIdentifier",
         "#feed-pyv-container",
@@ -104,9 +77,18 @@
         "ytd-video-masthead-ad-v3-renderer",
         "ytm-companion-slot",
         "ytm-promoted-sparkles-text-search-renderer",
-        "ytm-promoted-sparkles-web-renderer"
-    ],
-    "all": [
+        "ytm-promoted-sparkles-web-renderer",
+        "#top",
+        ".section__news--is-ad,.ad-parent-class",
+        ".henneoHB,.henneoHB_right",
+        ".henneoHB_right",
+        ".henneoHB_cintillo",
+        ".native1",
+        ".section-special--is-patrocinado",
+        ".sunmedia1",
+        ".sunmedia2",
+        ".roba_finarticulo",
+        ".roba_finarticulo2",
         "#A9AdsMiddleBoxTop",
         "#A9AdsOutOfStockWidgetTop",
         "#A9AdsServicesWidgetTop",
