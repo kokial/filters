@@ -1,17 +1,9 @@
 {
-    "www.expressen.se": [
-        ".linked-image-widget"
-    ],
-    "www.elconfidencialdigital.com": [
-        ".ad-slot"
-    ],
-    "www.elconfidencial.com": [
-        ".revUnit"
-    ],
-    "www.larazon.es": [
+    "all": [
+        ".linked-image-widget",
+        ".ad-slot",
+        ".revUnit",
         "#top",
-        ".section__news--is-ad,.ad-parent-class",
-        ".henneoHB,.henneoHB_right",
         ".henneoHB_right",
         ".henneoHB_cintillo",
         ".native1",
@@ -19,12 +11,8 @@
         ".sunmedia1",
         ".sunmedia2",
         ".roba_finarticulo",
-        ".roba_finarticulo2"
-    ],
-    "elpais.com": [
-        ".ad"
-    ],
-    "www.elespanol.com": [
+        ".roba_finarticulo2",
+        ".ad",
         ".adv",
         "#megasuperior",
         "#robasuperiorhome2",
@@ -36,14 +24,11 @@
         "#roba05",
         "#cintillodeportes",
         "#cintillocorazon",
-        "#megainferior"
-    ],
-    "www.genbeta.com": [
+        "#megainferior",
         ".ad-box",
         "#pc-div-gpt-ad_728",
         "#movil-div-gpt-ad_728",
         "#pc-div-gpt-ad_300dcha",
-        "#div-gpt-top",
         "#div-gpt-lat",
         "#div-gpt-cen",
         "#div-gpt-cen2",
@@ -52,9 +37,7 @@
         "#pc-div-gpt-ad_300dchab",
         "#pc-div-gpt-ad_300izda",
         "#pc-div-gpt-ad_300izdab",
-        "#pc-div-gpt-ad_native"
-    ],
-    "www.youtube.com": [
+        "#pc-div-gpt-ad_native",
         "#YtKevlarVisibilityIdentifier",
         "#YtSparklesVisibilityIdentifier",
         "#feed-pyv-container",
@@ -104,9 +87,7 @@
         "ytd-video-masthead-ad-v3-renderer",
         "ytm-companion-slot",
         "ytm-promoted-sparkles-text-search-renderer",
-        "ytm-promoted-sparkles-web-renderer"
-    ],
-    "all": [
+        "ytm-promoted-sparkles-web-renderer",
         "#A9AdsMiddleBoxTop",
         "#A9AdsOutOfStockWidgetTop",
         "#A9AdsServicesWidgetTop",
@@ -8242,7 +8223,6 @@
         "#ss-ad-container",
         "#ss-ad-overlay",
         "#ss-ads-container",
-        "#sticky-col",
         "#st_topads",
         "#stageAds",
         "#starad",
@@ -8950,7 +8930,6 @@
         "#zone_b_ad",
         "#zone_c_ads",
         "#zztextad",
-        ".ad__inner__container",
         ".AdContainer",
         ".AD-POST",
         ".AD-RC-300x250",
@@ -9216,7 +9195,7 @@
         ".BigBoxAdLabel",
         ".BlockAd",
         ".BlueTxtAdvert",
-        ".banner_center,.ad-slot,.box-adv",
+        ".banner_center ad-slot box-adv",
         ".BottomAd-container",
         ".BottomAdContainer",
         ".BottomAdsPartial",
@@ -9378,7 +9357,6 @@
         ".NR-Ads",
         ".NavBarAd",
         ".NewsAds",
-        ".no-live",
         ".Normal-add",
         ".OAS_position_TopLeft",
         ".OAS_wrap",
@@ -9411,8 +9389,6 @@
         ".PushDownAdPane",
         ".PushdownAd",
         ".RBboxAd",
-        ".r-pub--leader,.rossel-leader-top",
-        "#rossel-leader-top",
         ".RC-AD",
         ".RGAdBoxMainDiv",
         ".RHR-ADS",
@@ -14562,7 +14538,6 @@
         ".ajdg_bnnrwidgets",
         ".ajdg_grpwidgets",
         ".al-wss-ad",
-        ".alpha",
         ".alb-content-ad",
         ".alignads",
         ".allow-ads",
