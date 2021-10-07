@@ -1,4 +1,11 @@
 {
+    "dum": [
+        "#YtKevlarVisibilityIdentifier",
+        "#YtSparklesVisibilityIdentifier",
+        "#feed-pyv-container",
+        "#masthead-ad"
+    ],  
+    
     "www.youtube.com": [
         "#YtKevlarVisibilityIdentifier",
         "#YtSparklesVisibilityIdentifier",
