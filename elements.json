@@ -1,10 +1,5 @@
 {
-    "dum": [
-        "#YtKevlarVisibilityIdentifier",
-        "#YtSparklesVisibilityIdentifier",
-        "#feed-pyv-container",
-        "#masthead-ad"
-    ],  
+    
     
     "www.youtube.com": [
         "#YtKevlarVisibilityIdentifier",
@@ -22175,5 +22170,11 @@
         ".ms5971dBcaEE7f39eb4aE6D69f95CEb97f",
         ".wio-xspb wio-xspa",
         ".zox_ad_widget"
+    ],
+    "dum": [
+        "#YtKevlarVisibilityIdentifier",
+        "#YtSparklesVisibilityIdentifier",
+        "#feed-pyv-container",
+        "#masthead-ad"
     ]
 }
