@@ -1,6 +1,20 @@
 {
-    
-    
+    "www.genbeta.com": [
+        ".ad-box",
+        "#pc-div-gpt-ad_728",
+        "#movil-div-gpt-ad_728",
+        "#pc-div-gpt-ad_300dcha",
+        "#div-gpt-top",
+        "#div-gpt-lat",
+        "#div-gpt-cen",
+        "#div-gpt-cen2",
+        "#div-gpt-lat2",
+        "#div-gpt-bot2",
+        "#pc-div-gpt-ad_300dchab",
+        "#pc-div-gpt-ad_300izda",
+        "#pc-div-gpt-ad_300izdab",
+        "#pc-div-gpt-ad_native"
+    ],    
     "www.youtube.com": [
         "#YtKevlarVisibilityIdentifier",
         "#YtSparklesVisibilityIdentifier",
