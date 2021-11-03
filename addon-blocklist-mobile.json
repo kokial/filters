@@ -1,5 +1,5 @@
 {
-"version": "21-10-29 Mobile",
+"version": "21-11-03 Mobile",
 "blockList": ["*://*.youtube.com/get_video_info*",
 "*://*.youtube.com/pagead*",
 "*://*.youtube.com/*log_event?alt=json&key*",
