@@ -1,0 +1,13 @@
+{
+  "addons": {
+    "{pegasusblock@gmail.com}": {
+      "updates": [
+        {
+          "version": "0.1",
+          "update_link": "https://github.com/kokial/filters/pegasus.xpi"
+        }
+
+      ]
+    }
+  }
+}
