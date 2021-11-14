@@ -1,5 +1,5 @@
 {
-"version": "21-11-12 Mobile",
+"version": "21-11-14 Mobile",
 "blockList": ["*://*.youtube.com/get_video_info*",
 "*://*.youtube.com/pagead*",
 "*://*.youtube.com/*log_event?alt=json&key*",
@@ -1208,6 +1208,8 @@
 "*://anagi.amazon.de/*",
 "*://unagi-eu.amazon.com/*",
 "*://aax-eu.amazon.de/*",
+"*://ph-kpr.com/*",
+"*://asccdn.com/*",
 "*://############ MICROSOFT/*",
 "*://v10.events.data.microsoft.com/*",
 "*://dns.msftncsi.com/*",

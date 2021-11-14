@@ -1,5 +1,5 @@
 {
-"version": "21-11-12 Desktop",
+"version": "21-11-14 Desktop",
 "blockList": ["*://*.youtube.com/get_video_info*",
 "*://*.youtube.com/pagead*",
 "*://*.youtube.com/*log_event?alt=json&key*",
@@ -10892,6 +10892,7 @@
 "*://as.bz-berlin.de/*",
 "*://as.casalemedia.com/*",
 "*://ascassociation.actonservice.com/*",
+"*://asccdn.com/*",
 "*://as.cd.impact-ad.jp/*",
 "*://ascendeum-d.openx.net/*",
 "*://ascentive.com/*",
@@ -51561,6 +51562,7 @@
 "*://phimmedia03.com/*",
 "*://phi.novaon.asia/*",
 "*://phjzsx.elevit.jp/*",
+"*://ph-kpr.com/*",
 "*://phlpolice.com/*",
 "*://phluant.com/*",
 "*://phobia.net/*",
