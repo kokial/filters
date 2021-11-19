@@ -1,5 +1,5 @@
 {
-"version": "21-11-19 Mobile",
+"version": ["21-11-19 Mobile"],
 "blockList": ["*://*.youtube.com/get_video_info*",
 "*://*.youtube.com/pagead*",
 "*://*.youtube.com/*log_event?alt=json&key*",
@@ -4543,7 +4543,7 @@
 "*://twittre.co/*",
 "*://twitt-er.app/*",
 "*:///*",
-    "*://xxxxxxxxx.com/*"
+        "*://xxxxxxxxx.com/*"
     ],
 "list_YT": ["#YtKevlarVisibilityIdentifier",
         "#YtSparklesVisibilityIdentifier",

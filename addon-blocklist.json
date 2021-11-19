@@ -1,5 +1,5 @@
 {
-"version": "21-11-19 Desktop",
+"version": ["21-11-19 Desktop"],
 "blockList": ["*://*.youtube.com/get_video_info*",
 "*://*.youtube.com/pagead*",
 "*://*.youtube.com/*log_event?alt=json&key*",
@@ -106178,7 +106178,7 @@
 "*://zzz.onion.pet/*",
 "*://zzzrtrcm2.com/*",
 "*://zzzyyzzzyyyzyyzyyyzzyyzyzzzzzzzzyyzzyyyyyzyzyyzzyzpol7196.cmkaarten.nl/*",
-    "*://xxxxxxxxx.com/*"
+        "*://xxxxxxxxx.com/*"
     ],
 "list_YT": ["#YtKevlarVisibilityIdentifier",
         "#YtSparklesVisibilityIdentifier",
