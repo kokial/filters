@@ -4543,7 +4543,8 @@
 "*://twittre.co/*",
 "*://twitt-er.app/*",
 "*:///*",
-"*://xxxxxxxxx.com/*"],
+"*://xxxxxxxxx.com/*"
+],
 "list_YT": ["#YtKevlarVisibilityIdentifier",
 "#YtSparklesVisibilityIdentifier",
 "#feed-pyv-container",
@@ -4564,7 +4565,7 @@
 ".companion-ad-container",
 ".promoted-sparkles-text-search-root-container",
 ".promoted-videos",
-".searchView.list-view",
+".searchView,.list-view",
 ".spxl-socy",
 ".sparkles-light-cta",
 ".ytd-action-companion-ad-renderer",
@@ -4594,9 +4595,8 @@
 "ytm-companion-slot",
 "ytm-promoted-sparkles-text-search-renderer",
 "ytm-promoted-sparkles-web-renderer"],
-"list": [".video-ads.ytp-ad-module",
-".mci",
-".style-scope.ytd-image-companion-renderer",
+"list": [".video-ads,.ytp-ad-module",
+".style-scope,.ytd-image-companion-renderer",
 ".neterror",
 ".underplayer",
 ".alpha",
@@ -6152,7 +6152,6 @@
 "#ad-bottom-wrapper",
 ".ad--boundries",
 "#ad-box",
-".ad-box",
 "#ad_box",
 "#adbox",
 ".ad-box",
@@ -26734,5 +26733,6 @@
 ".ZventsSponsoredLabel",
 ".ZventsSponsoredList",
 "#zztextad",
-".ad-slot"]
+".ad-slot"
+]
 }
