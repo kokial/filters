@@ -49,7 +49,8 @@
         "ytd-video-masthead-ad-v3-renderer",
         "ytm-companion-slot",
         "ytm-promoted-sparkles-text-search-renderer",
-        "ytm-promoted-sparkles-web-renderer"
+        "ytm-promoted-sparkles-web-renderer",
+        "#dialog"
     ],
     "list": [
         ".video-ads.ytp-ad-module",
