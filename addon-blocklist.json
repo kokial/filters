@@ -1,5 +1,5 @@
 {
-"version": ["21-11-20 Desktop"],
+"version": ["21-11-21 Desktop"],
 "blockList": [
 		"*://*.youtube.com/get_video_info*",
 		"*://*.youtube.com/pagead*",
@@ -25147,8 +25147,6 @@
 "*://eeco-net.actonservice.com/*",
 "*://ee.connextra.com/*",
 "*://eedclicks.ero-advertising.com/*",
-"*://eeddggee77.xyz/*",
-"*://eeddggee88.xyz/*",
 "*://eeinvv.web.app/*",
 "*://eejkpa.sherlock.store/*",
 "*://eel.aware7.de/*",
