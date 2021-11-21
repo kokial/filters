@@ -50,7 +50,7 @@
         "ytm-companion-slot",
         "ytm-promoted-sparkles-text-search-renderer",
         "ytm-promoted-sparkles-web-renderer",
-        "#dialog"
+        ".v2-dialog.style-scope.ytd-consent-bump-v2-lightbox"
     ],
     "list": [
         ".video-ads.ytp-ad-module",
