@@ -1,5 +1,4 @@
 {
-    "empty": [],
     "list_YT": [
         "#YtKevlarVisibilityIdentifier",
         "#YtSparklesVisibilityIdentifier",
@@ -54,7 +53,6 @@
     ],
     "list": [
         ".video-ads.ytp-ad-module",
-        "#mega-atf",
         ".style-scope.ytd-image-companion-renderer",
         ".neterror",
         ".underplayer",
@@ -22192,6 +22190,7 @@
         ".ZventsSponsoredLabel",
         ".ZventsSponsoredList",
         "#zztextad",
-        ".ad-slot"
+        ".ad-slot",
+        "#mega-atf"
     ]
 }
