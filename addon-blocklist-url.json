@@ -53,6 +53,7 @@
     ],
     "list": [
         ".video-ads.ytp-ad-module",
+        "#mega-atf",
         ".style-scope.ytd-image-companion-renderer",
         ".neterror",
         ".underplayer",
