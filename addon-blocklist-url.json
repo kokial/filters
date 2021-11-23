@@ -49,10 +49,7 @@
         "ytd-video-masthead-ad-v3-renderer",
         "ytm-companion-slot",
         "ytm-promoted-sparkles-text-search-renderer",
-        "ytm-promoted-sparkles-web-renderer",
-        ".v2-dialog.style-scope,.ytd-consent-bump-v2-lightbox,.opened",
-        "tp-yt-iron-overlay-backdrop",
-        "tp-yt-paper-dialog"
+        "ytm-promoted-sparkles-web-renderer"
     ],
     "list": [
         ".video-ads.ytp-ad-module",
