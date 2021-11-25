@@ -1,17 +1,7 @@
 {
     "list_YT": [
         "#YtKevlarVisibilityIdentifier",
-        "#YtSparklesVisibilityIdentifier",
-        "#feed-pyv-container",
-        "#masthead-ad",
-        "#merch-shelf",
-        "#pla-shelf",
-        "#player-ads",
-        "#premium-yva",
-        "#promo-info",
-        "#promo-list",
-        "#search-pva",
-        "#shelf-pyv-container"
+        "#YtSparklesVisibilityIdentifier"
     ],
     "list": [
         ".video-ads.ytp-ad-module",
