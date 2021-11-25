@@ -30,15 +30,7 @@
         ".ytd-merch-shelf-renderer",
         ".ytd-player-legacy-desktop-watch-ads-renderer",
         ".ytd-promoted-sparkles-text-search-renderer",
-        ".ytd-promoted-video-renderer",
-        ".ytd-search-pyv-renderer",
-        ".ytd-video-masthead-ad-v3-renderer",
-        ".ytp-ad-action-interstitial-background-container",
-        ".ytp-ad-action-interstitial-slot",
-        ".ytp-ad-button",
-        ".ytp-ad-overlay-container",
-        ".ytp-ad-player-overlay-flyout-cta",
-        ".ytp-ad-progress"
+        ".ytd-promoted-video-renderer"
     ],
     "list": [
         ".video-ads.ytp-ad-module",
