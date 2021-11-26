@@ -22195,6 +22195,8 @@
         ".drts",
         ".wio-xbanner",
         ".clearfix",
-        ".kibelcohid"
+        ".kibelcohid",
+        ".vjs-inplayer-container",
+        ".vjs-inplayer-resume-button"
     ]
 }
