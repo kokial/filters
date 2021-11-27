@@ -49,8 +49,7 @@
 "#promo-info",
 "#promo-list",
 "#search-pva",
-"#shelf-pyv-container",
-".style-scope,.ytd-watch-flexy"
+"#shelf-pyv-container"
 ],
 "list": [
 ".video-ads,.ytp-ad-module",
