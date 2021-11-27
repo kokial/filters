@@ -50,7 +50,7 @@
 "#promo-list",
 "#search-pva",
 "#shelf-pyv-container",
-".style-scope.ytd-watch-flexy"
+".style-scope,.ytd-watch-flexy"
 ],
 "list": [
 ".video-ads,.ytp-ad-module",
