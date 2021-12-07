@@ -49,7 +49,10 @@
 "#promo-info",
 "#promo-list",
 "#search-pva",
-"#shelf-pyv-container"
+"#shelf-pyv-container",
+".dialog mandatory-consent-v2-kickin",
+"ytm-consent-bump-v2-renderer",
+".consent-bump-v2-lightbox"
 ],
 "list": [
 ".video-ads,.ytp-ad-module",
