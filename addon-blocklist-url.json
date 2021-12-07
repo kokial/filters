@@ -33,7 +33,6 @@
 ".spxl-socy",
 ".sparkles-light-cta",
 ".ytd-action-companion-ad-renderer",
-".style-scope,.ytd-image-companion-renderer",
 ".ytd-carousel-ad-renderer",
 ".ytd-compact-promoted-video-renderer",
 ".ytd-companion-slot-renderer",
@@ -42,7 +41,6 @@
 ".ytd-promoted-sparkles-text-search-renderer",
 ".ytd-promoted-video-renderer",
 "#feed-pyv-container",
-".video-ads,.ytp-ad-module",
 "#masthead-ad",
 "#merch-shelf",
 "#pla-shelf",
@@ -54,6 +52,8 @@
 "#shelf-pyv-container"
 ],
 "list": [
+".video-ads,.ytp-ad-module",
+".style-scope,.ytd-image-companion-renderer",
 ".neterror",
 ".underplayer",
 ".alpha",
@@ -61,6 +61,7 @@
 ".ad,.ad-lat2",
 ".ad.ad-lat,.ad-lat-fixed",
 ".amp-animate,.amp-mode-mouse",
+"ytd-promoted-sparkles-web-renderer",
 ".adv.top",
 "#google_center_div",
 ".GoogleActiveViewElement",
