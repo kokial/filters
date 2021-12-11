@@ -53,7 +53,8 @@
 "#shelf-pyv-container",
 ".dialog mandatory-consent-v2-kickin",
 "ytm-consent-bump-v2-renderer",
-".consent-bump-v2-lightbox"
+".consent-bump-v2-lightbox",
+"ytd-live-chat-frame"
 ],
 "list": [
 ".video-ads,.ytp-ad-module",
