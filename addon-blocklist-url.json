@@ -5,6 +5,7 @@
 ".ytp-ad-progress-list",
 ".video-ads",
 ".ytp-ad-module",
+".ytp-flyout-cta-body",
 ".ytd-image-companion-renderer",
 "ytd-compact-promoted-video-renderer",
 "ytd-companion-slot-renderer",
