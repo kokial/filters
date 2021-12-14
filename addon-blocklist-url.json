@@ -35,6 +35,7 @@
 "ytd-live-chat-frame",
 "#companion",
 "#action-companion-click-target",
+".style-scope.ytd-action-companion-ad-renderer",
 "nothing"
 ],
 "list": [
