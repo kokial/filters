@@ -34,7 +34,8 @@
 ".consent-bump-v2-lightbox",
 "ytd-live-chat-frame",
 "#companion",
-"#action-companion-click-target"
+"#action-companion-click-target",
+"nothing"
 ],
 "list": [
 ".neterror",
