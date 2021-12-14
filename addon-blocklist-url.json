@@ -32,7 +32,8 @@
 ".dialog mandatory-consent-v2-kickin",
 "ytm-consent-bump-v2-renderer",
 ".consent-bump-v2-lightbox",
-"ytd-live-chat-frame"
+"ytd-live-chat-frame",
+"#action-companion-click-target"
 ],
 "list": [
 ".neterror",
