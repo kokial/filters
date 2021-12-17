@@ -33,11 +33,12 @@
 "#action-companion-click-target",
 ".style-scope.ytd-action-companion-ad-renderer",
 "#player-ads",
-".ytd-player-legacy-desktop-watch-ads-renderer",
+"ytd-player-legacy-desktop-watch-ads-renderer",
 "#merch-shelf",
 "#masthead-ad",
 "#block",
 "#action-companion-ad-info-button",
+".style-scope.ytd-watch-flexy",
 "nothing"
 ],
 "list": [
