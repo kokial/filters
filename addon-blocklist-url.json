@@ -54,6 +54,9 @@
 "ytm-consent-bump-v2-renderer",
 ".consent-bump-v2-lightbox",
 "ytd-live-chat-frame",
+"#action-companion-ad-info-button",
+"#player-ads",
+"#action-companion-click-target",
 "nothing"
 ],
 "list": [
