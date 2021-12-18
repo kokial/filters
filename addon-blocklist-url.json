@@ -55,12 +55,9 @@
 ".consent-bump-v2-lightbox",
 "ytd-live-chat-frame",
 "#action-companion-ad-info-button",
-"#player-ads",
 "#action-companion-click-target",
 ".badge-style-type-ad",
-".GoogleActiveViewElement",
 "ytd-display-ad-renderer:upward(ytd-rich-item-renderer)",
-"[layout*=""display-ad-""]",
 "nothing"
 ],
 "list": [
@@ -71,7 +68,6 @@
 ".ad,.ad-lat2",
 ".ad.ad-lat,.ad-lat-fixed",
 ".amp-animate,.amp-mode-mouse",
-"ytd-promoted-sparkles-web-renderer",
 ".adv.top",
 "#google_center_div",
 "#gwd-ad",
@@ -146,7 +142,6 @@
 "#acm-ad-tag-728x90-atf",
 "#acm-ad-tag-728x90-btf",
 ".acm_ad_zones",
-".ad",
 "#ad-0",
 "#ad_0",
 ".ad_0",
