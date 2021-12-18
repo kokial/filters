@@ -57,6 +57,10 @@
 "#action-companion-ad-info-button",
 "#player-ads",
 "#action-companion-click-target",
+".badge-style-type-ad",
+".GoogleActiveViewElement",
+"ytd-display-ad-renderer:upward(ytd-rich-item-renderer)",
+"[layout*=""display-ad-""]",
 "nothing"
 ],
 "list": [
@@ -70,7 +74,6 @@
 "ytd-promoted-sparkles-web-renderer",
 ".adv.top",
 "#google_center_div",
-".GoogleActiveViewElement",
 "#gwd-ad",
 "#mys-wrapper",
 ".ad__wrapper_alayans",
