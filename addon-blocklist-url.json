@@ -51,7 +51,7 @@
 ".badge-style-type-ad",
 "ytd-display-ad-renderer:upward(ytd-rich-item-renderer)",
 "#player-ads",
-".video-ad",
+".video-ads.ytp-ad-module",
 ".style-scope.ytd-live-chat-frame",
 "nothing"
 ],
