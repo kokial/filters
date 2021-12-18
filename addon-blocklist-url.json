@@ -50,6 +50,8 @@
 "#action-companion-click-target",
 ".badge-style-type-ad",
 "ytd-display-ad-renderer:upward(ytd-rich-item-renderer)",
+"#player-ads",
+".video-ad",
 "nothing"
 ],
 "list": [
