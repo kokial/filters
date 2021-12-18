@@ -52,6 +52,7 @@
 "ytd-display-ad-renderer:upward(ytd-rich-item-renderer)",
 "#player-ads",
 ".video-ad",
+".style-scope.ytd-live-chat-frame",
 "nothing"
 ],
 "list": [
