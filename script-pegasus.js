@@ -125,119 +125,116 @@
 
 
 
+// function setConstant(source, property, value, stack) {
+//     if (!property || !matchStackTrace(stack, new Error().stack)) {
+//         return;
+//     }
 
+//     var emptyArr = noopArray();
+//     var emptyObj = noopObject();
+//     var constantValue;
 
+//     if (value === 'undefined') {
+//         constantValue = undefined;
+//     } else if (value === 'false') {
+//         constantValue = false;
+//     } else if (value === 'true') {
+//         constantValue = true;
+//     } else if (value === 'null') {
+//         constantValue = null;
+//     } else if (value === 'emptyArr') {
+//         constantValue = emptyArr;
+//     } else if (value === 'emptyObj') {
+//         constantValue = emptyObj;
+//     } else if (value === 'noopFunc') {
+//         constantValue = noopFunc;
+//     } else if (value === 'trueFunc') {
+//         constantValue = trueFunc;
+//     } else if (value === 'falseFunc') {
+//         constantValue = falseFunc;
+//     } else if (/^\d+$/.test(value)) {
+//         constantValue = parseFloat(value);
 
-function setConstant(source, property, value, stack) {
-    if (!property || !matchStackTrace(stack, new Error().stack)) {
-        return;
-    }
+//         if (nativeIsNaN(constantValue)) {
+//             return;
+//         }
 
-    var emptyArr = noopArray();
-    var emptyObj = noopObject();
-    var constantValue;
+//         if (Math.abs(constantValue) > 0x7FFF) {
+//             return;
+//         }
+//     } else if (value === '-1') {
+//         constantValue = -1;
+//     } else if (value === '') {
+//         constantValue = '';
+//     } else {
+//         return;
+//     }
 
-    if (value === 'undefined') {
-        constantValue = undefined;
-    } else if (value === 'false') {
-        constantValue = false;
-    } else if (value === 'true') {
-        constantValue = true;
-    } else if (value === 'null') {
-        constantValue = null;
-    } else if (value === 'emptyArr') {
-        constantValue = emptyArr;
-    } else if (value === 'emptyObj') {
-        constantValue = emptyObj;
-    } else if (value === 'noopFunc') {
-        constantValue = noopFunc;
-    } else if (value === 'trueFunc') {
-        constantValue = trueFunc;
-    } else if (value === 'falseFunc') {
-        constantValue = falseFunc;
-    } else if (/^\d+$/.test(value)) {
-        constantValue = parseFloat(value);
+//     var canceled = false;
 
-        if (nativeIsNaN(constantValue)) {
-            return;
-        }
+//     var mustCancel = function mustCancel(value) {
+//         if (canceled) {
+//             return canceled;
+//         }
 
-        if (Math.abs(constantValue) > 0x7FFF) {
-            return;
-        }
-    } else if (value === '-1') {
-        constantValue = -1;
-    } else if (value === '') {
-        constantValue = '';
-    } else {
-        return;
-    }
+//         canceled = value !== undefined && constantValue !== undefined && typeof value !== typeof constantValue;
+//         return canceled;
+//     };
 
-    var canceled = false;
+//     var setChainPropAccess = function setChainPropAccess(owner, property) {
+//         var chainInfo = getPropertyInChain(owner, property);
+//         var base = chainInfo.base;
+//         var prop = chainInfo.prop,
+//             chain = chainInfo.chain; // The scriptlet might be executed before the chain property has been created.
+//         // In this case we're checking whether the base element exists or not
+//         // and if not, we simply exit without overriding anything
 
-    var mustCancel = function mustCancel(value) {
-        if (canceled) {
-            return canceled;
-        }
+//         if (base instanceof Object === false && base === null) {
+//             // log the reason only while debugging
+//             if (source.verbose) {
+//                 var props = property.split('.');
+//                 var propIndex = props.indexOf(prop);
+//                 var baseName = props[propIndex - 1];
+//                 console.log("set-constant failed because the property '".concat(baseName, "' does not exist")); // eslint-disable-line no-console
+//             }
 
-        canceled = value !== undefined && constantValue !== undefined && typeof value !== typeof constantValue;
-        return canceled;
-    };
+//             return;
+//         }
 
-    var setChainPropAccess = function setChainPropAccess(owner, property) {
-        var chainInfo = getPropertyInChain(owner, property);
-        var base = chainInfo.base;
-        var prop = chainInfo.prop,
-            chain = chainInfo.chain; // The scriptlet might be executed before the chain property has been created.
-        // In this case we're checking whether the base element exists or not
-        // and if not, we simply exit without overriding anything
+//         if (chain) {
+//             var setter = function setter(a) {
+//                 base = a;
 
-        if (base instanceof Object === false && base === null) {
-            // log the reason only while debugging
-            if (source.verbose) {
-                var props = property.split('.');
-                var propIndex = props.indexOf(prop);
-                var baseName = props[propIndex - 1];
-                console.log("set-constant failed because the property '".concat(baseName, "' does not exist")); // eslint-disable-line no-console
-            }
+//                 if (a instanceof Object) {
+//                     setChainPropAccess(a, chain);
+//                 }
+//             };
 
-            return;
-        }
+//             Object.defineProperty(owner, prop, {
+//                 get: function get() {
+//                     return base;
+//                 },
+//                 set: setter
+//             });
+//             return;
+//         }
 
-        if (chain) {
-            var setter = function setter(a) {
-                base = a;
+//         if (mustCancel(base[prop])) {
+//             return;
+//         }
 
-                if (a instanceof Object) {
-                    setChainPropAccess(a, chain);
-                }
-            };
+//         hit(source);
+//         setPropertyAccess(base, prop, {
+//             get: function get() {
+//                 return constantValue;
+//             },
+//             set: function set(a) {
+//                 if (mustCancel(a)) {
+//                     constantValue = a;
+//                 }
+//             }
+//         });
+//     };
 
-            Object.defineProperty(owner, prop, {
-                get: function get() {
-                    return base;
-                },
-                set: setter
-            });
-            return;
-        }
-
-        if (mustCancel(base[prop])) {
-            return;
-        }
-
-        hit(source);
-        setPropertyAccess(base, prop, {
-            get: function get() {
-                return constantValue;
-            },
-            set: function set(a) {
-                if (mustCancel(a)) {
-                    constantValue = a;
-                }
-            }
-        });
-    };
-
-    setChainPropAccess(window, property);
-}
+//     setChainPropAccess(window, property);
+// }
