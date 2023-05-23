@@ -3,21 +3,14 @@
 "blockList": [
 "*://*.google.com/log?*",
 "*://*.youtube.com/*ads?ver*",
-"*://*.youtube.com/pagead/interaction/?*",
-"*://*.youtube.com/pcs/activeview?xai=*",
 "*://*.youtube.com/api/stats/playback?ns=yt&el=adunit&*",
-"*://i1.ytimg.com/*",
-"*://*/pagead/*",
 "*://*/*.youtube.com/youtubei/v1/log_event?*",
 "*://*.youtube.com/*qoe?event=str*",
 "*://*.youtube.com/api/stats/qoe?fmt*",
 "*://*/generate_204*",
-"*://*.youtube.com/*/watchtime?ns=yt*",
 "*://googleads.g.doubleclick.net/*",
 "*://*.googlesyndication.com/*",
-"*://*.googlevideo.com/videogoodput?id*",
 "*://*.youtube.com/ptracking?*",
-"*://*.youtube.com/s/player/*ad.js",
 "*://END-OF-FILE/*"
 ]
 }
